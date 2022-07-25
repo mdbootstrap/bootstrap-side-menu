@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .sidenav {
+      position: absolute;
+      z-index: 1030;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: white;
+      width: 300px;
+    }
+
+    .backdrop {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(36, 26, 12, 0.178);
+      z-index: 1029;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="backdrop"></div>
+  <!-- Sidenav -->
+  <nav id="sidenav-1" class="sidenav shadow-3" data-mdb-hidden="false">
+    <div class="list-group list-group-light p-3">
+      <a
+        href="#"
+        class="list-group-item list-group-item-action px-3 border-0 active ripple"
+        aria-current="true"
+        >Ripple</a
+      >
+      <a
+        href="#"
+        class="list-group-item list-group-item-action px-3 border-0 ripple"
+        >Dapibus ac facilisis in</a
+      >
+      <a
+        href="#"
+        class="list-group-item list-group-item-action px-3 border-0 ripple"
+        >Morbi leo risus</a
+      >
+      <a
+        href="#"
+        class="list-group-item list-group-item-action px-3 border-0 ripple"
+        >Porta ac consectetur ac</a
+      >
+    </div>
+  </nav>
+  <!-- Sidenav -->
+
+  <div class="container d-flex justify-content-center mt-3">
+    <!-- Toggler -->
+    <button data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1" class="btn btn-primary" aria-controls="#sidenav-1"
+      aria-haspopup="true">
+      <i class="fas fa-bars"></i>
+    </button>
+    <!-- Toggler -->
+  </div>
+
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>

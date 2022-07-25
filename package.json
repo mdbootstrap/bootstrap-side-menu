@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-side-menu",
+  "version": "1.0.0",
+  "description": "Responsive Side menu with Bootstrap 5.Side Menu is a navigation component providing a clear way for navigating complex websites with lots of pages",
+  "main": "basic.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdbootstrap/bootstrap-side-menu.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootrap5",
+    "bootstrap-theme",
+    "bootstrap-template",
+    "reponsive",
+    "responsive-design"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdbootstrap/bootstrap-side-menu/issues"
+  },
+  "homepage": "https://mdbootstrap.com/docs/standard/extended/side-menu/"
+}
